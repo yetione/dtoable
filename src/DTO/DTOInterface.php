@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DTO;
+namespace yetione\DTO;
 
 
 interface DTOInterface

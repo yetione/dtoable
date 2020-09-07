@@ -1,13 +1,14 @@
 <?php
 
 
-namespace DTO;
+namespace yetione\DTO;
 
 
 use Doctrine\Common\Annotations\AnnotationException;
 use Doctrine\Common\Annotations\AnnotationReader;
-use DTO\Exception\ObjectInvalid;
-use DTO\Exception\SerializerException;
+use OutOfBoundsException;
+use yetione\DTO\Exception\ObjectInvalid;
+use yetione\DTO\Exception\SerializerException;
 use Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Exception\ExceptionInterface;
@@ -168,7 +169,7 @@ class Serializer
                 try {
                     $oViolation = $oViolationList->get($i);
                     $aResult[] = $oViolation->getPropertyPath().': '.$oViolation->getMessage();
-                } catch (\OutOfBoundsException $e) {
+                } catch (OutOfBoundsException $e) {
                 }
             }
         }

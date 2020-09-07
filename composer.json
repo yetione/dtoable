@@ -8,5 +8,15 @@
             "email": "jub45@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.2.5",
+        "symfony/serializer": "^5.1",
+        "symfony/validator": "^5.1",
+        "doctrine/annotations": "^1.10",
+        "phpdocumentor/reflection-docblock": "^5.2",
+        "symfony/property-info": "^5.1"
+    },
+    "autoload": {
+        "psr-4": { "yetione\\DTO\\": "src/" }
+    }
 }

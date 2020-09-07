@@ -1,10 +1,12 @@
 <?php
 
 
-namespace DTO\Exception;
+namespace yetione\DTO\Exception;
 
 
-class SerializerException extends \Exception
+use Exception;
+
+class SerializerException extends Exception
 {
 
 }
