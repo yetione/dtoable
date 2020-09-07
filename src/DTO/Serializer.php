@@ -1,14 +1,14 @@
 <?php
 
 
-namespace yetione\DTO;
+namespace Yetione\DTO;
 
 
 use Doctrine\Common\Annotations\AnnotationException;
 use Doctrine\Common\Annotations\AnnotationReader;
 use OutOfBoundsException;
-use yetione\DTO\Exception\ObjectInvalid;
-use yetione\DTO\Exception\SerializerException;
+use Yetione\DTO\Exception\ObjectInvalid;
+use Yetione\DTO\Exception\SerializerException;
 use Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Exception\ExceptionInterface;

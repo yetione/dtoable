@@ -17,6 +17,6 @@
         "symfony/property-info": "^5.1"
     },
     "autoload": {
-        "psr-4": { "yetione\\DTO\\": "src/" }
+        "psr-4": { "Yetione\\DTO\\": "src/" }
     }
 }
