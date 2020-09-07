@@ -17,6 +17,11 @@
         "symfony/property-info": "^5.1"
     },
     "autoload": {
-        "psr-4": { "Yetione\\DTO\\": "src/" }
+        "psr-4": { "Yetione\\DTO\\": "src/" 
+    },
+    "extra": {
+        "branch-alias": {
+            "master": "1-dev"
+        }
     }
 }
