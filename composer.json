@@ -18,5 +18,10 @@
     },
     "autoload": {
         "psr-4": { "yetione\\DTO\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "master": "1-dev"
+        }
     }
 }
