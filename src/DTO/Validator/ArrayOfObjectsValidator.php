@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yetione\DTO\Validator;
+namespace yetione\DTO\Validator;
 
 
 use Symfony\Component\Validator\Constraint;

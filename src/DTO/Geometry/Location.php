@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Yetione\DTO\Geometry;
+namespace yetione\DTO\Geometry;
 
 
-use Yetione\DTO\DTOInterface;
+use yetione\DTO\DTOInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 
 

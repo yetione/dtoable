@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yetione\DTO\Exception;
+namespace yetione\DTO\Exception;
 
 
 class ObjectInvalid extends SerializerException
