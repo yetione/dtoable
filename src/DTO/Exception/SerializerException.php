@@ -1,7 +1,7 @@
 <?php
 
 
-namespace yetione\DTO\Exception;
+namespace Yetione\DTO\Exception;
 
 
 use Exception;
