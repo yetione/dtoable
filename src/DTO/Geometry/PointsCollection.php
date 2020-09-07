@@ -1,10 +1,10 @@
 <?php
 
 
-namespace yetione\DTO\Geometry;
+namespace Yetione\DTO\Geometry;
 
 
-use yetione\DTO\DTOInterface;
+use Yetione\DTO\DTOInterface;
 
 class PointsCollection implements DTOInterface
 {
