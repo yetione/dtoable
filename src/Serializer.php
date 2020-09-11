@@ -28,6 +28,8 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 class Serializer
 {
+    protected static Serializer $instance;
+
     /**
      * @var \Symfony\Component\Serializer\Serializer
      */
@@ -175,5 +177,13 @@ class Serializer
         }
         return new ObjectInvalid(implode(PHP_EOL, $aResult));
 
+    }
+
+    public static function get(): Serializer
+    {
+        if (!isset(static::$instance)) {
+            static::$instance = new static();
+        }
+        return static::$instance;
     }
 }
