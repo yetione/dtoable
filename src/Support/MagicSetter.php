@@ -9,6 +9,11 @@ use Exception;
 trait MagicSetter
 {
 
+    /**
+     * @param $name
+     * @param $value
+     * @throws Exception
+     */
     public function __set($name, $value)
     {
         if (!property_exists($this, $name)) {

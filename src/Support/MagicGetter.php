@@ -9,6 +9,11 @@ use Exception;
 trait MagicGetter
 {
 
+    /**
+     * @param $name
+     * @return mixed
+     * @throws Exception
+     */
     public function __get($name)
     {
         if (property_exists($this, $name)) {
