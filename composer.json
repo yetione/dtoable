@@ -21,6 +21,8 @@
     "autoload": {
         "psr-4": { "Yetione\\DTO\\": "src/"}
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "master": "1-dev"
